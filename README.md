@@ -1,4 +1,5 @@
 # Docru
+[![Build Status](https://travis-ci.com/komisan19/docru.svg?branch=master)](https://travis-ci.com/komisan19/docru)
 
 make Dockerfile by RubyGem
 
