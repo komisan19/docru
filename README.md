@@ -2,7 +2,7 @@
 
 make Dockerfile by RubyGem
 
-** Not completed yet **
+**Not completed yet**
 
 ## Installation
 
