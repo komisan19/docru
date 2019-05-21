@@ -28,5 +28,7 @@ Gem::Specification.new do |spec|
 	spec.add_development_dependency "minitest"
 	# CLI
 	spec.add_dependency "thor"
+	# file#COPY
+	spec.add_dependency "fileutils"
 
 end
