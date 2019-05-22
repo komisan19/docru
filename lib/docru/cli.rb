@@ -1,13 +1,12 @@
 require "docru"
 require "thor"
+require 'fileutils'
 
 module Docru
 	class CLI < Thor
-		dessc "make {Docru_string}", "make Dockerfile"
+		dessc "make ruby", "make Dockerfile by ruby"
 		def make(str)
-			open('../docker/Dockerfile', 'w') do |f|
-				f.puts ""
-			end
+			FileUtils.cp './docker/ruby/Dockerfile', '/'
 		end
 
 		desc "make_do {Docru_strin}}", "make docker-compose.yml"
