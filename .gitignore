@@ -7,4 +7,5 @@
 /spec/reports/
 /tmp/
 setup.sh
-Dockerfile
+/container
+docker-compose.yml
