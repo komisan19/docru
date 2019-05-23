@@ -1,9 +1,13 @@
 require 'minitest/autorun'
 
-class Docru < MiniTest::Unit::Docru
+class Docru < MiniTest::Test
+	def setup
+		@name = cli.
+	end
+
 	# magic test
-	def docru
-		assert_equal "docru", "docru"
+	def test_make
+		assert { make("ruby") == true} 
 	end
 
 end
