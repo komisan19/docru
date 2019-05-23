@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 
 class Docru < MiniTest::Test
+=begin
 	def setup
 		@name = cli.
 	end
@@ -9,5 +10,5 @@ class Docru < MiniTest::Test
 	def test_make
 		assert { make("ruby") == true} 
 	end
-
+=end
 end
