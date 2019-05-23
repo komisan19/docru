@@ -4,9 +4,10 @@ require 'fileutils'
 
 module Docru
 	class CLI < Thor
-		dessc "make ruby", "make Dockerfile by ruby"
+		desc "make ruby", "make Dockerfile by ruby"
 		def make(str)
-			FileUtils.cp './docker/ruby/Dockerfile', '/'
+			FileUtils.cp 'lib/docru/docker/ruby/Dockerfile', '.'
+			puts "true"
 		end
 
 		desc "make_do {Docru_strin}}", "make docker-compose.yml"
