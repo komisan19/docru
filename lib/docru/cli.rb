@@ -9,6 +9,7 @@ module Docru
 			case str
 			when "ruby"
 			  FileUtils.cp 'lib/docru/docker/ruby/Dockerfile', '.'
+        puts true
 			when "go"
 				puts "sorry... There is no #{str} Dockerfile yet"
 			when "Elixir"
