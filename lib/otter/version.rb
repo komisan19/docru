@@ -1,3 +1,3 @@
-module Docru
+module Otter
   VERSION = "0.1.0"
 end

@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 
-class Docru < MiniTest::Test
+class Otter < MiniTest::Test
 =begin
 	def setup
 		@name = cli.

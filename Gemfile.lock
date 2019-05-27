@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    docru (0.1.0)
+    otter (0.1.0)
       fileutils
       thor
 
@@ -18,7 +18,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  docru!
+  otter!
   minitest
   rake (~> 10.0)
 

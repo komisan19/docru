@@ -1,5 +1,5 @@
-# Docru
-[![Build Status](https://travis-ci.com/komisan19/docru.svg?branch=master)](https://travis-ci.com/komisan19/docru)
+# Otter
+[![Build Status](https://travis-ci.com/komisan19/otter.svg?branch=master)](https://travis-ci.com/komisan19/docru)
 
 make Dockerfile by RubyGem
 
@@ -10,7 +10,7 @@ make Dockerfile by RubyGem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'docru'
+gem 'otter'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install docru
+    $ gem install otter
 
 ## Development
 
