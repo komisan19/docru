@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "docru/version"
+require "otter/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "docru"
-  spec.version       = Docru::VERSION
+  spec.name          = "otter"
+  spec.version       = Otter::VERSION
   spec.authors       = ["komisan19"]
 	spec.email         = ["hogehoge@example.com"]
 

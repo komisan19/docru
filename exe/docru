@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-
-require "docru"
-Docru::CLI.start

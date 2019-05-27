@@ -1,7 +1,7 @@
-require "docru/version"
-require 'docru/cli'
+require "otter/version"
+require 'otter/cli'
 
-module Docru
+module Otter
   class Error < StandardError; end
   # Your code goes here...
 end
