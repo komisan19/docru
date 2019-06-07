@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
+	spec.add_dependency "aruba"
 	# test
 	spec.add_development_dependency "minitest"
 	# CLI
