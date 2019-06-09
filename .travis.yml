@@ -6,6 +6,6 @@ before_install:
   - gem update bundler
   - gem install bundler
   - bundle install --deployment
-script: ruby --version
+script: bundle exec exe/otter setup
 
 
